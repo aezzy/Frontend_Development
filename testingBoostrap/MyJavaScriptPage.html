@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body onload="animate_string('target')">
+
+    <h4>Rotate string</h4>
+    <div id="target">Lexicon </div>
+    <br />
+
+    <div>
+        <h4>User Greetings</h4>
+        What is your name: <input type="text" size="20" id="myname" />
+        <button type="button" id="mybutton">Submit</button>
+        <div id="hellomessage"></div>
+
+    </div>
+    <br />
+
+    <div>
+        <h4>Guess Number matched with Input Number</h4>
+        enter number:<input type="text" id="guessNumber" class="guessNumber" />
+
+        <input type="submit" id="submitguess" value="Submit guess" class="guessSubmit" />
+        <div id="demo2"></div>
+    </div>
+
+    <br />
+
+
+    <div>
+        <h4>Days left until Charismas</h4>
+        <input type="button"
+               value="Show"
+               onclick="showLeftDaysXmas()">
+
+        <div id="DaysLeftXmas"></div>
+    </div>
+
+    <div>
+        <h4>String check</h4>
+
+
+        <h5>Adding "Py" in front of word "thon"</h5>
+        <div id="Py">
+
+        </div>
+
+        <h5>delete "Py" in front of word "thon"</h5>
+        <div id="thon">
+        </div>
+
+    </div>
+    <br />
+
+    <div>
+        <h4>Numbers nearest to 100 with given integers: 90 and 89</h4>
+        <div id="FirstNearestNr"></div>
+        <div id="SecondNearestNr"></div>
+        <div id="ThirdNearestNr"></div>
+    </div>
+
+
+    <script type="text/javascript" src="Script1.js"></script>
+</body>
+</html>
